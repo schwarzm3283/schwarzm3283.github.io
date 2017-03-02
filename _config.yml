@@ -1,71 +1,96 @@
-# --- Serving options --- #
+# --- General options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-# If you are building a simple GitHub user page (username.github.io) then use these settings:
-url: "http://schwarzm3283.github.io"
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+url: "http://blog.mschwarz.us"
 baseurl: ""
 
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
 # Name of website
-title: Juuso Parkkinen
+title: Michael Schwarz
 
 # Short description of your site
-description: Juuso's personal web page
+description: A data science blog using R and covering topics of interest to me.
 
 # --- Navigation bar options --- #
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/images/juuso_200.png"
-
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
-  Projects: "projects.html"
-  About Me: "aboutme.html"
-#  Contact: "contact.html"
+  About Me: "aboutme"
+  Resources:
+    - My Shiny Server: "shiny"
+ #  - resource expansion 1: "url"
+ #  - resource expansion 2: "url"
+# nav bar expansion 1: "url"
+# nav bar expansion 2: "url"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+#avatar: "/img/img.png"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
   
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Juuso Parkkinen
-  email: "ouzor@iki.fi"
-  twitter: ouzor   # eg. daattali
-  github: ouzor    # eg. daattali
-#  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
-#  facebook: yourname  # eg. daattali
-#  stackoverflow: yourlink  # eg. "users/3943160/daattali"
- 
+  name: Michael Schwarz
+  email: "schwarz.mike@gmail.com"
+  facebook: mschwarz.us  # eg. daattali
+  github: schwarzm3283    # eg. daattali
+  twitter: yourname   # eg. daattali
+  reddit: yourname    # eg. daattali
+  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
+  linkedin: yourname  # eg. daattali
+  xing: yourname      # eg. daattali
+  stackoverflow: 4793252/michael  # eg. "3943160/daattali"
+  snapchat: yourname  # eg. daattali
+  instagram: yourname # eg. daattali
+  youtube: yourlink   # eg. user/daattali or channel/daattali
+  spotify: yourname   # eg. daattali
+  telephone: yourphone   # eg. +14159998888
+
 # Select which links to show in the footer
 footer-links-active:
   rss: true
   facebook: true
   email: true
-  twitter: true
+  twitter: false
+  google-plus: false
   github: true
+  reddit: false
   linkedin: false
-  stackoverflow: false
+  xing: false
+  stackoverflow: true
+  snapchat: false
+  instagram: false
+  youtube: false
+  spotify: false
+  telephone: false
+  
+# Select which share links to show in posts
+share-links-active:
+  twitter: false
+  facebook: true
+  google: false
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "ouzor.github.io"  
+url-pretty: "blog.mschwarz.us"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
+# --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "juusosblog"
+disqus: "mschwarzblog"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-10655517-6"
+google_analytics: "UA-92910121-1"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
