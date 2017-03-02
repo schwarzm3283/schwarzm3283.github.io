@@ -1,24 +1,16 @@
 ---
 layout: page
 title: About me
-subtitle: The essentials
+subtitle: Why you'd want to go on a date with me
 ---
 
-**Work**: Since 2014, I have been working as a data scientist at [Reaktor].
+My name is Inigo Montoya. I have the following qualities:
 
-**Education**: I finished my PhD in the [Statistical Machine Learning and Bioinformatics][smlb] group at Aalto University in 2014. In my thesis I developed and applied probabilistic machine learning methods to biomedical applications. See more about my research in the [Projects][proj-research] page.
+- I rock a great mustache
+- I'm extremely loyal to my family
 
-**Open knowledge**: On my spare time I have been creating open source tools for handling open data in the [Louhos][] and [rOpenGov][] projects. See more at the [Projects][proj-opentools] page.
+What else do you need?
 
-**Hobbies**: Ultimate frisbee, freeskiing, kiteskiing, photography, cycling. 
+### my history
 
-
-
-[Reaktor]: http://reaktor.fi/
-[smlb]: http://research.ics.aalto.fi/mi/
-[Projects]: /projects.html
-[proj-research]: /projects.html#research
-[Louhos]: http://louhos.github.io/
-[rOpenGov]: http://ropengov.github.io/
-[proj-opentools]: /projects.html#opentools
-[proj-openknow]: /projects.html#openknow
+To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
