@@ -29,7 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   window.addEventListener("message", function(event) {
-    
+    if (event.origin !== "https://mschwarz.us") {
+      return;
+    }
     var data = event.data.split(":");
     if (data[0] == "height") {
       $("#shiny-server-iframe")[0].height = data[1];
@@ -48,4 +50,4 @@ document.addEventListener('DOMContentLoaded', function() {
   MSc in Bioinformatics, Bachelor of Computer Science.
 </div>
 
-<iframe id="shiny-server-iframe" src="http://daattali.com/shiny?iframe=1" scrolling="no" width="100%" height="3000"></iframe>
+<iframe id="shiny-server-iframe" src="http://mschwarz.us/shiny?iframe=1" scrolling="no" width="100%" height="1500"></iframe>
