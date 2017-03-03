@@ -152,6 +152,10 @@ img {
     padding: 0;
   }
   
+  .navbar-custom.top-nav-short-permanent,
+  .navbar-custom.top-nav-short {
+    padding: 0;
+  }
 }
 
 .navbar-custom .avatar-container {
