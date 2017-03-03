@@ -28,6 +28,7 @@
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
 		  {% if page.subtitle %}
 		    {% if include.type == "page" %}
+		        <link rel="icon" type="image/x-icon" href="http://jekyllrb.com/favicon.ico">
             <hr class="small">
             <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
 			{% else %}
@@ -36,6 +37,7 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
+		  <link rel="icon" type="image/x-icon" href="http://jekyllrb.com/favicon.ico">
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
         </div>
@@ -55,12 +57,14 @@
 		    {% if include.type == "page" %}
             <hr class="small">
             <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
+            <link rel="icon" type="image/x-icon" href="http://jekyllrb.com/favicon.ico">
 			{% else %}
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
+		  <link rel="icon" type="image/x-icon" href="http://jekyllrb.com/favicon.ico">
 		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
         </div>
@@ -68,7 +72,6 @@
     </div>
   </div>
 </div>
-<link rel="icon" type="image/x-icon" href="http://jekyllrb.com/favicon.ico">
 </header>
 
 
