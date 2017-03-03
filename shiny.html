@@ -29,9 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   window.addEventListener("message", function(event) {
-    if (event.origin !== "https://daattali.com") {
-      return;
-    }
+    
     var data = event.data.split(":");
     if (data[0] == "height") {
       $("#shiny-server-iframe")[0].height = data[1];
