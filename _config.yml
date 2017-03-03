@@ -98,7 +98,7 @@ google_analytics: "UA-92910121-1"
 timezone: "Finland/Helsinki"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title.html  #/:year-:month-:day-:title
+permalink: /:year/:month/:day/:title.html  #/:year-:month-:day-:title
 paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
