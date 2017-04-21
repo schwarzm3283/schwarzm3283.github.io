@@ -98,7 +98,7 @@ google_analytics: "UA-92910121-1"
 timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/  #/:year-:month-:day-:title
+permalink: /:title/  #/:year-:month-:day-:title
 paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
