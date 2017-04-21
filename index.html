@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mike Schwarz
+css: "/css/index.css"
 subtitle: My Data Science Blog
 ---
 
