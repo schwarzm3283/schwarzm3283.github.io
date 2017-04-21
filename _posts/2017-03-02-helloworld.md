@@ -2,7 +2,7 @@
 layout: post
 title: First post!
 image: /img/hello_world.jpeg
-tags: [general, admin]
+tags: [popular]
 ---
 
 Hi I'm Schwarz, Mike Schwarz, and this is the first post in my new blog!
