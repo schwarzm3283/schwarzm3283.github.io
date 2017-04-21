@@ -5,8 +5,8 @@ subtitle: My Data Science Blog
 ---
 
 <div class="list-filters">
-  <a href="/" class="list-filter filter-selected">All posts</a>
-  <a href="/popular" class="list-filter">Most Popular</a>
+  <a href="/" class="list-filter">All posts</a>
+  <span class="list-filter filter-selected">Most Popular</span>
 </div>
 
 <div class="posts-list">
