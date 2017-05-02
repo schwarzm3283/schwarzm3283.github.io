@@ -19,7 +19,7 @@ description: A data science blog using R and covering topics of interest to me.
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - My Shiny Server: "https://mschwarz.us/shiny"
+    - My Shiny Server: "https://www.mschwarz.us/shiny"
  #  - resource expansion 1: "url"
  #  - resource expansion 2: "url"
 # nav bar expansion 1: "url"
