@@ -1,9 +1,0 @@
----
-title: "Going Keto"
-subtitle: Bring on the bacon
-tags:
-- Personal 
-layout: post
----
-
-
