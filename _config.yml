@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://www.iamschwarz.com"
+url: "http://www.mikeyschwarz.com"
 baseurl: ""
 
 # Name of website
@@ -18,8 +18,8 @@ description: A data science blog using R and covering topics of interest to me.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - My Shiny Server: "https://www.mschwarz.us/shiny"
+ # Resources:
+ #   - My Shiny Server: "https://www.mschwarz.us/shiny"
  #  - resource expansion 1: "url"
  #  - resource expansion 2: "url"
 # nav bar expansion 1: "url"
